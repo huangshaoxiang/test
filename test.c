@@ -1,5 +1,6 @@
 #include <stdio.h>
 void main()
 {
-	printf("hello word !\n");
+	char *name = "huangcong";
+	printf("%s:hello word !\n", *name);
 }
